@@ -1,0 +1,17 @@
+
+name: LazerMCAbility
+version: 1.0
+main: com.lazermc.LazerMCAbility
+api-version: '1.21'
+author: CrazySaurabh
+description: LazerMC Custom Ability Plugin
+
+commands:
+  ability:
+    description: Open the Ability GUI
+    usage: /ability
+
+permissions:
+  lazermc.admin:
+    description: Admin permission
+    default: op
